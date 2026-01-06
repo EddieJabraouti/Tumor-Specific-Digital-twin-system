@@ -144,4 +144,5 @@ Robust segmentation consistency
 
 3D reconstruction and visualization readiness
 
-The system is designed to serve as a foundation for future integration of physics-based transport models, therapy simulations, and advanced spatiotemporal analysis—while remaining feasible, interpretable, and aligned with the original project proposal.
+Purely a personal research project - not intended for clinical use
+
