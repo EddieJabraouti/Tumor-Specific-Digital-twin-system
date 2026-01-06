@@ -146,3 +146,25 @@ Robust segmentation consistency
 
 Purely a personal research project - not intended for clinical use
 
+
+FIle Structure (Excluding Dataset): 
+TUMOR-SPECIFIC-DIGITAL-TWIN/
+│
+├── Diffusion/
+│   └── diffusion.py
+│
+├── UNet/
+│   └── net.py
+│
+├── Physics_Based_Simulation/
+│   └── nn.py
+│
+├── notebooks/
+│   ├── diffusion.ipynb
+│   ├── phyNN.ipynb
+│   └── Unet.ipynb
+│
+└── README.md
+
+
+
