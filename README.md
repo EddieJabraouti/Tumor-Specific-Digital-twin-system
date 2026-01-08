@@ -391,9 +391,3 @@ Evaluation focuses on **pipeline consistency** and **anatomical plausibility** r
 ## License & Acknowledgments
 
 **This is a personal research project and is not intended for clinical use.**
-
-For questions or collaboration inquiries, please contact the project maintainer.
-
----
-
-**Last Updated**: 2024
