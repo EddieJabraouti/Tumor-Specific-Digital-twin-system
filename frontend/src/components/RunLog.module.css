@@ -1,0 +1,71 @@
+.container {
+  margin-top: 1.5rem;
+  background-color: #1e1e1e;
+  border-radius: 4px;
+  padding: 1rem;
+  max-height: 300px;
+  overflow-y: auto;
+  font-family: 'Courier New', monospace;
+  font-size: 0.85rem;
+}
+
+.header {
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #444;
+}
+
+.empty {
+  color: #888;
+  text-align: center;
+  padding: 2rem;
+}
+
+.logs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.logEntry {
+  padding: 0.25rem 0.5rem;
+  border-radius: 2px;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.logEntry.info {
+  background-color: rgba(33, 150, 243, 0.1);
+  color: #90caf9;
+}
+
+.logEntry.success {
+  background-color: rgba(76, 175, 80, 0.1);
+  color: #81c784;
+}
+
+.logEntry.warn {
+  background-color: rgba(255, 193, 7, 0.1);
+  color: #ffd54f;
+}
+
+.logEntry.error {
+  background-color: rgba(244, 67, 54, 0.1);
+  color: #e57373;
+}
+
+.timestamp {
+  color: #888;
+  min-width: 80px;
+}
+
+.step {
+  color: #aaa;
+  min-width: 100px;
+}
+
+.message {
+  flex: 1;
+}
